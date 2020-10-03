@@ -1,0 +1,103 @@
+[2020-03-12 14:46:03.219] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2020-03-12 14:46:03.219] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2020-03-12 14:46:03.219] [jointLog] [info] Usage of --validateMappings implies a default consensus slack of 0.2. Setting consensusSlack to 0.35.
+[2020-03-12 14:46:03.219] [jointLog] [info] parsing read library format
+[2020-03-12 14:46:03.219] [jointLog] [info] There is 1 library.
+[2020-03-12 14:46:03.262] [jointLog] [info] Loading pufferfish index
+[2020-03-12 14:46:03.262] [jointLog] [info] Loading dense pufferfish index.
+[2020-03-12 14:46:41.253] [jointLog] [info] done
+[2020-03-12 14:46:41.253] [jointLog] [info] Index contained 227,257 targets
+[2020-03-12 14:46:44.273] [jointLog] [info] Number of decoys : 194
+[2020-03-12 14:46:44.273] [jointLog] [info] First decoy index : 227,042 
+[2020-03-12 14:46:44.293] [jointLog] [warning] Fragment GC bias correction is currently *experimental* in single-end libraries.  Please use this option with caution.
+[2020-03-12 14:46:45.011] [jointLog] [info] Automatically detected most likely library type as U
+[2020-03-12 14:53:11.922] [fileLog] [info] 
+At end of round 0
+==================
+Observed 29972657 total fragments (29972657 in most recent round)
+
+[2020-03-12 14:53:11.922] [jointLog] [info] Computed 397,021 rich equivalence classes for further processing
+[2020-03-12 14:53:11.922] [jointLog] [info] Counted 19,127,288 total reads in the equivalence classes 
+[2020-03-12 14:53:11.927] [jointLog] [info] Number of mappings discarded because of alignment score : 435,977,074
+[2020-03-12 14:53:11.927] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 5,618,749
+[2020-03-12 14:53:11.927] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 1,676,046
+[2020-03-12 14:53:11.927] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 0
+[2020-03-12 14:53:11.927] [jointLog] [info] Mapping rate = 63.8158%
+
+[2020-03-12 14:53:11.927] [jointLog] [info] finished quantifyLibrary()
+[2020-03-12 14:53:11.927] [jointLog] [info] Starting optimizer
+[2020-03-12 14:53:12.001] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2020-03-12 14:53:12.011] [jointLog] [info] iteration = 0 | max rel diff. = 5193.49
+[2020-03-12 14:53:12.100] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
+[2020-03-12 14:53:28.244] [jointLog] [info] Computed expected counts (for bias correction)
+[2020-03-12 14:53:28.245] [jointLog] [info] processed bias for 0.0% of the transcripts
+[2020-03-12 14:53:30.044] [jointLog] [info] processed bias for 10.0% of the transcripts
+[2020-03-12 14:53:31.866] [jointLog] [info] processed bias for 20.0% of the transcripts
+[2020-03-12 14:53:33.752] [jointLog] [info] processed bias for 30.0% of the transcripts
+[2020-03-12 14:53:35.592] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2020-03-12 14:53:37.356] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2020-03-12 14:53:39.163] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2020-03-12 14:53:40.965] [jointLog] [info] processed bias for 70.0% of the transcripts
+[2020-03-12 14:53:42.603] [jointLog] [info] processed bias for 80.0% of the transcripts
+[2020-03-12 14:53:44.374] [jointLog] [info] processed bias for 90.0% of the transcripts
+[2020-03-12 14:53:46.340] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2020-03-12 14:53:47.280] [jointLog] [info] iteration = 100 | max rel diff. = 16.2931
+[2020-03-12 14:53:48.318] [jointLog] [info] iteration = 200 | max rel diff. = 7.99483
+[2020-03-12 14:53:49.355] [jointLog] [info] iteration = 300 | max rel diff. = 3.27767
+[2020-03-12 14:53:50.392] [jointLog] [info] iteration = 400 | max rel diff. = 18.6951
+[2020-03-12 14:53:51.432] [jointLog] [info] iteration = 500 | max rel diff. = 2.61743
+[2020-03-12 14:53:52.468] [jointLog] [info] iteration = 600 | max rel diff. = 0.319741
+[2020-03-12 14:53:53.504] [jointLog] [info] iteration = 700 | max rel diff. = 0.539406
+[2020-03-12 14:53:54.542] [jointLog] [info] iteration = 800 | max rel diff. = 0.708884
+[2020-03-12 14:53:55.580] [jointLog] [info] iteration = 900 | max rel diff. = 0.0716538
+[2020-03-12 14:53:56.618] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.020724
+[2020-03-12 14:53:57.656] [jointLog] [info] iteration = 1,100 | max rel diff. = 0.0356323
+[2020-03-12 14:53:58.694] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.0429149
+[2020-03-12 14:53:59.731] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.0469401
+[2020-03-12 14:54:00.788] [jointLog] [info] iteration = 1,400 | max rel diff. = 0.828714
+[2020-03-12 14:54:01.831] [jointLog] [info] iteration = 1,500 | max rel diff. = 0.0380386
+[2020-03-12 14:54:02.869] [jointLog] [info] iteration = 1,600 | max rel diff. = 0.0711138
+[2020-03-12 14:54:03.905] [jointLog] [info] iteration = 1,700 | max rel diff. = 0.0514537
+[2020-03-12 14:54:04.124] [jointLog] [info] iteration = 1,722 | max rel diff. = 0.0054309
+[2020-03-12 14:54:04.128] [jointLog] [info] Finished optimizer
+[2020-03-12 14:54:04.128] [jointLog] [info] writing output 
+
+[2020-03-12 14:54:04.354] [jointLog] [info] Starting Bootstrapping
+[2020-03-12 14:54:04.432] [jointLog] [info] Will draw 30 bootstrap samples
+[2020-03-12 14:54:04.432] [jointLog] [info] Optimizing over 397,021 equivalence classes
+[2020-03-12 14:54:04.452] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2020-03-12 14:55:19.451] [jointLog] [info] wrote 1 bootstraps
+[2020-03-12 14:55:53.213] [jointLog] [info] wrote 2 bootstraps
+[2020-03-12 14:56:11.250] [jointLog] [info] wrote 3 bootstraps
+[2020-03-12 14:56:17.829] [jointLog] [info] wrote 4 bootstraps
+[2020-03-12 14:56:18.511] [jointLog] [info] wrote 5 bootstraps
+[2020-03-12 14:56:22.104] [jointLog] [info] wrote 6 bootstraps
+[2020-03-12 14:56:24.284] [jointLog] [info] wrote 7 bootstraps
+[2020-03-12 14:56:25.516] [jointLog] [info] wrote 8 bootstraps
+[2020-03-12 14:56:30.118] [jointLog] [info] wrote 9 bootstraps
+[2020-03-12 14:56:35.749] [jointLog] [info] wrote 10 bootstraps
+[2020-03-12 14:57:00.439] [jointLog] [info] wrote 11 bootstraps
+[2020-03-12 14:57:43.950] [jointLog] [info] wrote 12 bootstraps
+[2020-03-12 14:57:50.152] [jointLog] [info] wrote 13 bootstraps
+[2020-03-12 14:58:03.228] [jointLog] [info] wrote 14 bootstraps
+[2020-03-12 14:58:15.218] [jointLog] [info] wrote 15 bootstraps
+[2020-03-12 14:58:19.280] [jointLog] [info] wrote 16 bootstraps
+[2020-03-12 14:58:19.927] [jointLog] [info] wrote 17 bootstraps
+[2020-03-12 14:58:43.766] [jointLog] [info] wrote 18 bootstraps
+[2020-03-12 14:58:43.916] [jointLog] [info] wrote 19 bootstraps
+[2020-03-12 14:59:03.475] [jointLog] [info] wrote 20 bootstraps
+[2020-03-12 14:59:15.244] [jointLog] [info] wrote 21 bootstraps
+[2020-03-12 14:59:26.206] [jointLog] [info] wrote 22 bootstraps
+[2020-03-12 14:59:44.743] [jointLog] [info] wrote 23 bootstraps
+[2020-03-12 14:59:49.172] [jointLog] [info] wrote 24 bootstraps
+[2020-03-12 15:00:02.103] [jointLog] [info] wrote 25 bootstraps
+[2020-03-12 15:00:03.296] [jointLog] [info] wrote 26 bootstraps
+[2020-03-12 15:00:04.977] [jointLog] [info] wrote 27 bootstraps
+[2020-03-12 15:00:06.228] [jointLog] [info] wrote 28 bootstraps
+[2020-03-12 15:00:10.747] [jointLog] [info] wrote 29 bootstraps
+[2020-03-12 15:00:13.609] [jointLog] [info] wrote 30 bootstraps
+[2020-03-12 15:00:13.624] [jointLog] [info] Finished Bootstrapping
+[2020-03-12 15:00:13.624] [jointLog] [warning] NOTE: Read Lib [[ /dev/fd/63 ]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: /home/mks/mks/data_and_results/step9_salmon_quant/quants/sk9753_good/lib_format_counts.json for details
+
