@@ -26,7 +26,7 @@ Identify specific molecular characteristics of human mesenchymal stem cells sene
 
 ## Study design and data
 
-![Uncovering%20molecular%20characteristics%20of%20cellular%20s%2099321d46e68940d8a3a65eaa85877f1f/Figure_5_().jpg](Uncovering%20molecular%20characteristics%20of%20cellular%20s%2099321d46e68940d8a3a65eaa85877f1f/Figure_5_().jpg)
+<img src="results/GSEA_apoptosis.jpg" width="550px" />
 
 To determine possible transcriptomic features mediating cell type dependent CGs-resistance or -sensitivity of senescent cells we asked the question: how senescence of CGs-resistant cells (in particular, END-MSCs) *differs* from senescence of CGs-sensitive cells (A549 and IMR-90)? To answer this question, we utilized three independent RNA sequencing datasets relevant for for ouabain CG application: 
 
@@ -48,11 +48,11 @@ Raw (reads data) and processed (salmon quants output, primary and filtered DESeq
 
 Differential testing for the last variable in the model presented at the scheme above (P1 : P2) and further conducting gene set enrichment analysis (GSEA) in Gene Ontology (GO) terms for Biological Processes (BP) let us to functionally characterize differentially expressed genes during senescence of CGs-resistant and -sensitive cells
 
-![Uncovering%20molecular%20characteristics%20of%20cellular%20s%2099321d46e68940d8a3a65eaa85877f1f/Figure_5.jpg](Uncovering%20molecular%20characteristics%20of%20cellular%20s%2099321d46e68940d8a3a65eaa85877f1f/Figure_5.jpg)
+<img src="results/GSEA_potassium_import.jpg" width="550px" />
 
 Among the significantly enriched processes we found ‘Potassium ion import’ and ‘Positive regulation of cation transmembrane transport’ to be up-regulated during senescence of CGs-resistant END-MSCs compared to senescence of CGs-sensitive cells. 
 
-![Uncovering%20molecular%20characteristics%20of%20cellular%20s%2099321d46e68940d8a3a65eaa85877f1f/Figure_6.jpg](Uncovering%20molecular%20characteristics%20of%20cellular%20s%2099321d46e68940d8a3a65eaa85877f1f/Figure_6.jpg)
+<img src="results/GSEA_apoptosis.jpg" width="550px" />
 
 Moreover, END-MSCs acquire apoptosis-resistant phenotype during senescence, while sensitive to CGs-mediated senescent IMR-90 and A549 became apoptosis-prone
 
